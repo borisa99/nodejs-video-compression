@@ -1,0 +1,7 @@
+services:
+  nodejs-video-compression:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./temp:/usr/src/app/temp
